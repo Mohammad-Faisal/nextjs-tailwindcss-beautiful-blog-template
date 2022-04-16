@@ -101,3 +101,11 @@ To read more about how the different parts were built refer to these articles.
 - Type checking TypeScript
 - Linter with ESLint
 - Code Formatter with Prettier
+
+### Github Repo
+
+https://github.com/Mohammad-Faisal/nextjs-tailwindcss-beautiful-blog-template
+
+### Demo:
+
+https://nextjs-tailwindcss-beautiful-blog-template-6bhlgxk4v.vercel.app/sample-blog

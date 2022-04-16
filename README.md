@@ -1,3 +1,7 @@
+### Demo:
+
+https://nextjs-tailwindcss-beautiful-blog-template-6bhlgxk4v.vercel.app/sample-blog
+
 # How to make this blog yours?
 
 This is a Blog template using NextJS and React
