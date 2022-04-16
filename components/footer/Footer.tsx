@@ -7,7 +7,7 @@ function Footer() {
         <div className="">
           <div className="container mx-auto py-4 px-5 flex flex-wrap-reverse flex-col sm:flex-row">
             <p className="text-gray-500 dark:text-gray-50 text-sm text-center sm:text-left">
-              © 2022 Mohammad Faisal —
+              © 2022 {process.env.NEXT_PUBLIC_OWNER_NAME} —
               <a
                 href={process.env.NEXT_PUBLIC_TWITTER_PROFILE_URL}
                 className="text-gray-600 dark:text-gray-50 ml-1 "

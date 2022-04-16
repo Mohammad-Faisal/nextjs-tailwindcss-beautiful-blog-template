@@ -3,10 +3,10 @@ const seoConfig = {
     type: "blog",
     locale: "en_IE",
     url: process.env.NEXT_PUBLIC_PRODUCTION_ROOT_URL,
-    site_name: "Mohammad Faisal's Personal Website",
+    site_name: `${process.env.NEXT_PUBLIC_OWNER_NAME}'s Blog`,
   },
   twitter: {
-    handle: "@Faiiiisaaaal",
+    handle: process.env.NEXT_PUBLIC_TWITTER_HANDLE,
     site: "@site",
     cardType: "summary_large_image",
   },
