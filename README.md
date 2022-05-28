@@ -14,6 +14,12 @@ This is a Blog template using NextJS and React
 - Markdown
 - Syntax Highlighter
 
+### How to use it
+
+See the following youtube tutorial how to use this template and get your own version in 5 minutes.
+
+https://youtu.be/lEljvKRtU4c
+
 ### Features
 
 - Showing blog posts by parsing markdown
