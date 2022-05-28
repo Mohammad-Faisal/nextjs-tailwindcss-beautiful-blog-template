@@ -15,7 +15,10 @@ const customLoader = ({ src }: any) => {
   return src;
 };
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH
+  ? `${process.env.NEXT_PUBLIC_BASE_PATH}/`
+  : "";
+
 function BlogPreview(props: BlogPreviewProps) {
   const { title, description, imageUrl, tags = [], date, slug } = props;
   return (

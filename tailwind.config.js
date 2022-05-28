@@ -6,7 +6,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // typography: (theme) => ({}),
     extend: {
       typography: (theme) => ({
         dark: {
@@ -35,6 +34,6 @@ module.exports = {
   ],
   future: {
     removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true,
   },
 };
