@@ -6,7 +6,8 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "next serve"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",

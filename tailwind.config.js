@@ -1,7 +1,10 @@
 module.exports = {
   // purge: ["./**/*.tsx"],
   darkMode: "class",
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     // typography: (theme) => ({}),
     extend: {
@@ -26,9 +29,12 @@ module.exports = {
   variants: {
     typography: ["dark"],
   },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/line-clamp")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/line-clamp"),
+  ],
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
+    // purgeLayersByDefault: true,
   },
 };
