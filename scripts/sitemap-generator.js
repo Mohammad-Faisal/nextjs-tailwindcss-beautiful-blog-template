@@ -4,7 +4,6 @@ const glob = require("glob");
 function addPage(page) {
   page =
     page[page.length - 1] === "/" ? page.substring(0, page.length - 1) : page;
-  console.log(page);
   return `<url>
     <loc>${`${process.env.NEXT_PUBLIC_PRODUCTION_ROOT_URL}/${page}`}</loc>
     <lastmod>${new Date().toISOString()}</lastmod>

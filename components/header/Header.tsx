@@ -7,13 +7,16 @@ import { FaRegMoon, FaSun } from "react-icons/fa";
 
 function Header() {
   const { theme, setTheme } = useTheme();
-
+  const customLoader = ({ src }: any) => {
+    return src;
+  };
   return (
-    <header className="absolute w-screen dark:bg-slate-800 bg-gray-100">
+    <header className="absolute w-full dark:bg-slate-800 bg-gray-100">
       <div className="no-prose text-center flex justify-between p-5 lg:p-8 ">
         <Link href="/" passHref>
           <div className="flex gap-2 align-center text-center">
             <Image
+              loader={customLoader}
               src="/static/logo.png"
               alt="Profile Image"
               height="30"

@@ -11,6 +11,9 @@ interface BlogPreviewProps {
   slug: string;
   tags: string[];
 }
+const customLoader = ({ src }: any) => {
+  return src;
+};
 
 function BlogPreview(props: BlogPreviewProps) {
   const { title, description, imageUrl, tags = [], date, slug } = props;
@@ -18,6 +21,7 @@ function BlogPreview(props: BlogPreviewProps) {
     <Link href={`/${slug}`} passHref>
       <div className="flex flex-col pb-6 w-96 bg-white dark:bg-gray-700 dark:text-white overflow-hidden shadow-lg gap-2 rounded-lg hover:cursor-pointer  transition ease-in-out duration-200 hover:scale-100">
         <Image
+          loader={customLoader}
           objectFit="cover"
           width={400}
           height={200}

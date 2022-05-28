@@ -12,7 +12,6 @@ interface LayoutProps {
 
 function Layout({ children, pageTitle }: LayoutProps) {
   const router = useRouter();
-  console.log(router);
   return (
     <>
       <GoogleAnalytics />

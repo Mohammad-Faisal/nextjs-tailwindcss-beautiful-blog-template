@@ -2,7 +2,7 @@ import SocialLinks from "./SocialLinks";
 
 function Footer() {
   return (
-    <footer className="absolute dark:bg-slate-700 bg-gray-100 w-screen">
+    <footer className="absolute dark:bg-slate-700 bg-gray-100 w-full">
       <div className="text-slate-600 body-font">
         <div className="">
           <div className="container mx-auto py-4 px-5 flex flex-wrap-reverse flex-col sm:flex-row">

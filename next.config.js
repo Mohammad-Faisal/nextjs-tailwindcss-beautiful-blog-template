@@ -2,7 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["images.unsplash.com", "images.pexels.com", "miro.medium.com", "/images"],
+    domains: [
+      "images.unsplash.com",
+      "images.pexels.com",
+      "miro.medium.com",
+      "/images",
+    ],
+    loader: "custom",
+    disableStaticImages: true,
   },
   webpack: function (config, { isServer }) {
     if (isServer) {
