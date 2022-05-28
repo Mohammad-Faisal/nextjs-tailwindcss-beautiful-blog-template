@@ -13,6 +13,8 @@ This is a Blog template using NextJS and React
 - Typescript
 - Markdown
 - Syntax Highlighter
+- Github actions
+- Github pages
 
 ### How to use it
 
@@ -24,6 +26,7 @@ https://youtu.be/lEljvKRtU4c
 
 - Showing blog posts by parsing markdown
 - Syntax highlight with PrismJS
+- Github pages deployment support
 - Google analytics Integration
 - SEO setup
 - Tailwind typography integration
