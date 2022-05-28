@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: "/nextjs-tailwindcss-beautiful-blog-template",
+  assetPrefix: "/nextjs-tailwindcss-beautiful-blog-template",
   images: {
     domains: [
       "images.unsplash.com",
