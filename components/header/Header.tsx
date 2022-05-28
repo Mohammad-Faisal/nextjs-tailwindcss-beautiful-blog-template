@@ -18,7 +18,7 @@ function Header() {
           <div className="flex gap-2 align-center text-center">
             <Image
               loader={customLoader}
-              src={`${prefix}/static/logo.png`}
+              src={`${prefix}static/logo.png`}
               alt="Profile Image"
               height="30"
               width="30"

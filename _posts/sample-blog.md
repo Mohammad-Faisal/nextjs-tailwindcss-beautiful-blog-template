@@ -8,9 +8,9 @@ date: 1 January 2022
 
 # How to make this blog yours
 
-### We will see how to add a new blog into this project.
+## We will see how to add a new blog into this project.
 
-![](/images/sample-blog.jpeg)
+---
 
 ### Step 1: Change the environment variables
 

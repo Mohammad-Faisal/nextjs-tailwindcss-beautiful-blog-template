@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /nextjs-tailwindcss-beautiful-blog-template
+      NEXT_PUBLIC_BASE_PATH: /nextjs-tailwindcss-beautiful-blog-template/
 
     strategy:
       matrix:
