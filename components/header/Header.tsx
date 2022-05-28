@@ -4,6 +4,7 @@ import React from "react";
 import NavItem from "./NavItem";
 import { useTheme } from "next-themes";
 import { FaRegMoon, FaSun } from "react-icons/fa";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 function Header() {
   const { theme, setTheme } = useTheme();
@@ -17,7 +18,7 @@ function Header() {
           <div className="flex gap-2 align-center text-center">
             <Image
               loader={customLoader}
-              src="/static/logo.png"
+              src={`${prefix}/static/logo.png`}
               alt="Profile Image"
               height="30"
               width="30"

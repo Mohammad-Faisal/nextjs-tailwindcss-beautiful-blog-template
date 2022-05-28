@@ -15,6 +15,8 @@ const customLoader = ({ src }: any) => {
   return src;
 };
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 function BlogPreview(props: BlogPreviewProps) {
   const { title, description, imageUrl, tags = [], date, slug } = props;
   return (
@@ -25,7 +27,7 @@ function BlogPreview(props: BlogPreviewProps) {
           objectFit="cover"
           width={400}
           height={200}
-          src={imageUrl}
+          src={`${prefix}/${imageUrl}`}
           alt="This is the preview image of the blog"
           className="rounded-t-md"
         />
