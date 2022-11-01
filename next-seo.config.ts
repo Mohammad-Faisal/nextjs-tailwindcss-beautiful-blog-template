@@ -1,4 +1,6 @@
-const seoConfig = {
+import type { DefaultSeoProps } from 'next-seo';
+
+const seoConfig: DefaultSeoProps = {
   openGraph: {
     type: "blog",
     locale: "en_IE",
